@@ -9,8 +9,15 @@ public class Main {
 		Conta poupanca = new ContaPoupanca(venilton);
 
 		cc.depositar(100);
+		cc.depositar(100);
+		cc.depositar(100);
+		cc.depositar(100);
+		cc.sacar(250);
 		cc.transferir(100, poupanca);
-		
+		cc.transferir(100, poupanca);
+		cc.transferir(100, poupanca);
+		cc.transferir(100, poupanca);
+
 		cc.imprimirExtrato();
 		poupanca.imprimirExtrato();
 	}
